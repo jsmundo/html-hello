@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+    
+}
+.title {
+display: flex;
+width: 100%;
+justify-content: center;
+}
+* {
+  min-height: 10px;
+}
+.instagramContent{
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+
+}
+.instagram-header{
+  width: 43%;
+  height: 50%;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-bottom: 50px;
+  margin-left: 27%;
+}
+.headerTitle{
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+  padding: 10px;
+}
+.instagram-footer{
+  padding: 10px;
+}
+img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
